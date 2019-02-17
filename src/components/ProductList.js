@@ -17,7 +17,7 @@ class ProductList extends Component {
                         <Title name="our" title="products" />
                     </div>
                     <div className="row">
-                        <div className="col-2">
+                        <div className="col-3">
                             <div className="pl-2">
                                 <h2 className="text-capitalize text-blue">
                                     filter by
@@ -201,7 +201,7 @@ class ProductList extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-10">
+                        <div className="col-9">
                             <div className="row pr-4">
                                 <ProductConsumer>
                                     {value => {

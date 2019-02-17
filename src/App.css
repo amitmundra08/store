@@ -6,6 +6,7 @@
   --mainYellow:#ffa400;
   --mainRed:	#FF6347;
   --mainGreen:rgba(0,255,43,1);
+  --mainGrey:rgba(0,0,0,0.3);
 
 }
 
@@ -80,9 +81,14 @@ body{
 }
 
 .bg-red{ 
-  border-bottom:0.1rem solid var(--mainDark) !important;
+  border-bottom:0.09rem solid var(--mainGrey) !important;
 }
 
 .text-green {
   color:var(--mainGreen)
+}
+
+.bg-theme{
+  background:var(--mainBlue)
+
 }

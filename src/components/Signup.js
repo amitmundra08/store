@@ -107,7 +107,7 @@ class Signup extends Component {
 
         return (
             <LoginWrapper>
-                <div className="col-4 mx-auto card mt-5 py-5">
+                <div className="col-lg-4 col-sm-12 col-md-8 mx-auto mt-5 py-5  card">
                     <div className="container">
                         <label>
                             <b>Name</b>

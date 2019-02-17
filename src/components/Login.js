@@ -59,7 +59,7 @@ class Login extends Component {
         console.log(password, email, passwordError, emailError);
         return (
             <LoginWrapper>
-                <div className="col-4 mx-auto mt-5 py-5  card">
+                <div className="col-lg-4 col-sm-12 col-md-8 mx-auto mt-5 py-5  card">
                     <div className="container">
                         <label>
                             <b>Email</b>
